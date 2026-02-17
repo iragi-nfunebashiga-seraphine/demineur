@@ -10,7 +10,7 @@ void afficherGrille(int largeurGrille, int hauteurGrille,List<int>grille){
   for(var i=0; i< grille.length; i++){
     if(i % largeurGrille == 0){
       stdout.write("$numCol   ");
-      numCol += 1;
+      numCol += 1; 
     }
     stdout.write("| X ");
 
